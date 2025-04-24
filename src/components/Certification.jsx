@@ -10,7 +10,7 @@ const Certfication = () => {
         <ul className="flex flex-col sm:flex-row gap-2 sm:gap-12 items-center justify-center">
           <li>
             <img
-              src="/src/assets/card-market.png"
+              src="/card-market.png"
               role="img"
               aria-label="Certifed with Cardmarket"
               height={140}
@@ -19,7 +19,7 @@ const Certfication = () => {
           </li>
           <li>
             <img
-              src="/src/assets/pokemon-trading.png"
+              src="/pokemon-trading.png"
               height={140}
               role="img"
               aria-label="Pokemon Trading Cards"
@@ -28,7 +28,7 @@ const Certfication = () => {
           </li>
           <li>
             <img
-              src="/src/assets/amazon-startup.png"
+              src="/amazon-startup.png"
               height={140}
               role="img"
               aria-label="Backed by AWS Startup"
