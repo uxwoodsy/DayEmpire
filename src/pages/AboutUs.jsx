@@ -4,35 +4,7 @@ const AboutUs = () => {
   return (
     <div className="mx-auto">
       <div className="relative mx-auto max-w-7xl px-8 sm:px-6 lg:px-8 pt-20 pb-20 text-center lg:pt-32 lg:pb-32">
-        <div className="hidden lg:inline absolute -left-50 top-0">
-          <img
-            src="/src/assets/large-pikachu-tilt.png"
-            className="w-0 lg:w-[400px] xl:w-[500px] 2xl:w-[600px]"
-            alt="Image shows a Pikachu Pokemon card"
-          />
-        </div>
-        <div className="hidden lg:inline absolute -left-50 top-0">
-          <img
-            src="/src/assets/large-pikachu-tilt.png"
-            className="w-0 lg:w-[400px] xl:w-[500px] 2xl:w-[600px]"
-            alt="Image shows a Pikachu Pokemon card"
-          />
-        </div>
-        <div className="hidden lg:inline absolute -left-50 top-50 rotate-45">
-          <img
-            src="/src/assets/large-pikachu-tilt.png"
-            className="w-0 lg:w-[400px] xl:w-[500px] 2xl:w-[600px]"
-            alt="Image shows a Pikachu Pokemon card"
-          />
-        </div>
-        <div className="hidden lg:inline absolute -right-60 top-100">
-          <img
-            src="/src/assets/pokemon-back-cards.png"
-            className="w-0 lg:w-[400px] xl:w-[500px] 2xl:w-[600px]"
-            alt="Image shows the back of two Pokemon cards"
-          />
-        </div>
-
+        
         <span className="mb-6 px-4 py-1 bg-orange-200 mx-auto inline-flex rounded-4xl">
           About Day Empire
         </span>
