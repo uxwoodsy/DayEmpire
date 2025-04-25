@@ -18,7 +18,7 @@ function App() {
     <Router>
       <ScrollToTop />
       <Header />
-      <main className="container mx-auto">
+      <main className="mx-auto">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about-us" element={<AboutUs />} />

@@ -9,7 +9,7 @@ const ContactForm = () => {
       <div className="hidden lg:inline absolute -right-60 top-100"><img src='/pokemon-back-cards.png' className="w-0 lg:w-[400px] xl:w-[500px] 2xl:w-[600px]"  alt='Image shows the back of two Pokemon cards'/></div>
      
       <div className="mx-auto max-w-7xl sm:px-6 lg:px-8 pb-6 text-center lg:pt-16 lg:pb-16">
-          <h2 className='mx-auto max-w-5xl font-bold font-display text-3xl tracking-tight text-black sm:text-5xl'>Get in touch with us</h2>
+          <h2 className='mx-auto max-w-5xl font-bold font-display text-3xl tracking-tight text-black sm:text-5xl'>Ready to sell some cards?</h2>
           <p className='mx-auto mt-6 max-w-2xl text-lg tracking-tight text-gray-600'>We buy Pokémon™ cards from collectors, fans, and sellers all across the UK—no matter where you're located. Whether you’ve got a single rare card or an entire collection, we make the selling process simple, fast, and hassle-free.</p>
       </div>
     </div>
