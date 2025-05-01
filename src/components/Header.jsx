@@ -28,8 +28,6 @@ const Header = () => {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-
-
   return (
     <>
       <header ref={headerRef} className="flex h-[72px] items-center justify-center px-8 md:px-16 py-0 relative bg-white border-b-1 border-gray-200">

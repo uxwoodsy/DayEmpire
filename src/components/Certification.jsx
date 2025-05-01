@@ -4,9 +4,7 @@ const Certfication = () => {
   return (
     <>
       <div className="mx-4 sm:mx-16 mb-10 sm:mb-16 font-bold">
-        <h2 className="flex mx-auto font-bold justify-center mb-8">
-          Certified Partners & Featured Brands
-        </h2>
+     
         <ul className="flex flex-col sm:flex-row gap-2 sm:gap-12 items-center justify-center">
           <li>
             <a href="https://www.cardmarket.com/en/Pokemon/Users/DayEmpire" title="Day Empire is certifed with Card Market" target="_blank">

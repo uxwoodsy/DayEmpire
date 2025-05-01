@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useEffect } from 'react';
 import ScrollToTop from "./components/ScrollToTop";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -14,6 +15,18 @@ import NotFound from "./pages/NotFoud";
 import "./App.css";
 
 function App() {
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = `https://www.googletagmanager.com/gtag/js?id=YOUR_GA_TRACKING_ID`;
+    document.head.appendChild(script);
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'YOUR_GA_TRACKING_ID');
+}, []); 
+
   return (
     <Router>
       <ScrollToTop />

@@ -2,7 +2,12 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <div className="mx-auto">
+    <div className="mx-auto relative">
+
+     <div className="hidden lg:inline absolute -right-50 top-10"><img src='/mewtwo-card.png' className="w-0 lg:w-[400px] xl:w-[500px] 2xl:w-[600px]"  alt='Image shows a Pikachu Pokemon card'/></div>
+     <div className="hidden lg:inline absolute right-70 top-10"><img src='/raichu-coin.png' className="w-0 lg:w-[168px] xl:w-[168px] 2xl:w-[168px]"  alt='Image shows a Pikachu Pokemon card'/></div>
+     <div className="hidden lg:inline absolute left-30 top-10"><img src='/blastiose-coin.png' className="w-0 lg:w-[168px] xl:w-[168px] 2xl:w-[168px]"  alt='Image shows a Pikachu Pokemon card'/></div>
+
       <div className="relative mx-auto max-w-7xl px-8 sm:px-6 lg:px-8 pt-20 pb-20 text-center lg:pt-32 lg:pb-32">
         
         <span className="mb-6 px-4 py-1 bg-orange-200 mx-auto inline-flex rounded-4xl">
