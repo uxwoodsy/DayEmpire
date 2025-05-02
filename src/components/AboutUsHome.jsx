@@ -5,7 +5,7 @@ const AboutUsHome = () => {
   return (
     <>
        <div className="bg-[#fef5e9] w-full">
-        <div className="mx-auto max-w-7xl px-8 sm:px-6 lg:px-8 pt-20 pb-20 text-center lg:pt-32 lg:pb-32">
+        <div className="mx-auto max-w-7xl px-8 sm:px-6 lg:px-8 pt-16 pb-16 text-center lg:pt-32 lg:pb-32">
           <span className="mb-6 px-4 py-1 bg-orange-200 mx-auto inline-flex rounded-4xl">
             The Day Empire
           </span>
@@ -22,7 +22,7 @@ const AboutUsHome = () => {
             <Link
               to="/about-us"
               title="Learn About Day Empire"
-              className="inline-flex items-center justify-center gap-2 px-6 py-2 bg-black rounded-lg hover:bg-gray-700 text-white"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-black rounded-lg hover:bg-gray-700 text-white"
             >
               Get to know us more
             </Link>

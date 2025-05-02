@@ -5,8 +5,8 @@ const ContactForm = () => {
     <>
     
     <div id='SellCards' className="relative flex mx-8 sm:mx-16 sm:justify-center">
-      <div className="hidden lg:inline absolute -left-50 top-10"><img src='/large-pikachu-tilt.png' className="w-0 lg:w-[400px] xl:w-[500px] 2xl:w-[600px]"  alt='Image shows a Pikachu Pokemon card'/></div>
-      <div className="hidden lg:inline absolute -right-60 top-100"><img src='/pokemon-back-cards.png' className="w-0 lg:w-[400px] xl:w-[500px] 2xl:w-[600px]"  alt='Image shows the back of two Pokemon cards'/></div>
+      <div className="hidden lg:inline absolute -left-50 top-10"><img src='/large-pikachu-tilt.png' className="w-0 xl:w-[400px] 2xl:w-[600px]"  alt='Image shows a Pikachu Pokemon card'/></div>
+      <div className="hidden lg:inline absolute -right-60 top-100"><img src='/pokemon-back-cards.png' className="w-0 xl:w-[400px] 2xl:w-[600px]"  alt='Image shows the back of two Pokemon cards'/></div>
      
       <div className="mx-auto max-w-7xl sm:px-6 lg:px-8 pb-6 text-center lg:pt-16 lg:pb-16">
           <h2 className='mx-auto max-w-5xl font-bold font-display text-3xl tracking-tight text-black sm:text-5xl'>Ready to sell some cards?</h2>

@@ -12,7 +12,7 @@ const SellPanel = () => {
        <span className="mb-6 px-4 py-1 bg-orange-200 mx-auto inline-flex rounded-4xl">
             Sell unwanted cards
           </span>
-          <h2 className="max-w-4xl font-bold font-display text-3xl tracking-tight text-black sm:text-5xl">
+          <h2 className="mx-auto max-w-3xl font-bold font-display text-3xl sm:text-4xl lg:text-5xl tracking-tight text-black">
             Clear the decks with our expert assistance!
           </h2>
           <p className="mt-6 max-w-2xl text-lg tracking-tight text-gray-600">
@@ -22,7 +22,7 @@ const SellPanel = () => {
             <a
               href="#SellCards"
               title="Sell unwanted cards with Day Empire"
-              className="inline-flex items-center justify-center gap-2 px-6 py-2 bg-black rounded-lg hover:bg-gray-700 text-white"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 bg-black rounded-lg hover:bg-gray-700 text-white"
             >
               Get in touch</a>
           </div>

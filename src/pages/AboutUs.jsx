@@ -4,16 +4,18 @@ const AboutUs = () => {
   return (
     <div className="mx-auto relative">
 
-     <div className="hidden lg:inline absolute -right-50 top-10"><img src='/mewtwo-card.png' className="w-0 lg:w-[400px] xl:w-[500px] 2xl:w-[600px]"  alt='Image shows a Pikachu Pokemon card'/></div>
-     <div className="hidden lg:inline absolute right-70 top-10"><img src='/raichu-coin.png' className="w-0 lg:w-[168px] xl:w-[168px] 2xl:w-[168px]"  alt='Image shows a Pikachu Pokemon card'/></div>
-     <div className="hidden lg:inline absolute left-30 top-10"><img src='/blastiose-coin.png' className="w-0 lg:w-[168px] xl:w-[168px] 2xl:w-[168px]"  alt='Image shows a Pikachu Pokemon card'/></div>
+     <div className="hidden lg:inline absolute -right-50 top-10"><img src='/mewtwo-card.png' className="w-0 xl:w-[500px] 2xl:w-[600px]"  alt='Image shows a Mewtwo Pokemon card'/></div>
+     <div className="hidden lg:inline absolute right-70 top-10"><img src='/raichu-coin.png' className="w-0  xl:w-[168px] 2xl:w-[168px]"  alt='Image shows a Raichu coin'/></div>
+     <div className="hidden lg:inline absolute left-30 top-10"><img src='/blastiose-coin.png' className="w-0 xl:w-[168px] 2xl:w-[168px]"  alt='Image shows a Blastoise coin'/></div>
+     <div className="hidden lg:inline absolute -right-20 top-80 -rotate-10"><img src='/sam-owner-card.png' className="w-0  xl:w-[300px] 2xl:w-[467px]"  alt='Image shows Sam, owner of the Day Empire'/></div>
+     <div className="hidden lg:inline absolute -left-20 top-60 rotate-10"><img src='/tom-owner-card.png' className="w-0 xl:w-[300px] 2xl:w-[467px]"  alt='Image shows Tom, owner of the Day Empire'/></div>
 
-      <div className="relative mx-auto max-w-7xl px-8 sm:px-6 lg:px-8 pt-20 pb-20 text-center lg:pt-32 lg:pb-32">
+      <div className="relative mx-auto max-w-7xl px-8 sm:px-6 lg:px-8 pt-16 pb-16 text-center lg:pt-32 lg:pb-32">
         
         <span className="mb-6 px-4 py-1 bg-orange-200 mx-auto inline-flex rounded-4xl">
           About Day Empire
         </span>
-        <h1 className="mx-auto max-w-5xl font-bold font-display text-5xl tracking-tight text-black sm:text-7xl">
+        <h1 className="mx-auto sm:max-w-4xl lg:max-w-5xl font-bold font-display text-5xl tracking-tight text-black sm:text-7xl">
           Meet the Pokemon™ Experts
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-gray-600">

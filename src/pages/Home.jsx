@@ -5,11 +5,12 @@ import Benefits from "../components/Benefits"
 import AboutUsHome from "../components/AboutUsHome"
 import Collection from "../components/Collection"
 import SellPanel from "../components/SellPanel"
+import Testimonial from "../components/Testimonials";
 
 const Home = () => {
   return (
     <div>
-      <div className="mx-auto max-w-7xl px-8 sm:px-6 lg:px-8 pt-20 pb-20 text-center lg:pt-32 lg:pb-32">
+      <div className="mx-auto max-w-7xl px-8 sm:px-6 lg:px-8 pt-16 pb-16 text-center lg:pt-32 lg:pb-32">
         <span className="mb-6 px-4 py-1 bg-orange-200 mx-auto inline-flex rounded-4xl">
           Over 30,000 items for sale!
         </span>
@@ -24,7 +25,7 @@ const Home = () => {
           <Link
             to="/#BuyCards"
             title="Buy Pokemon cards"
-            className="inline-flex items-center justify-center gap-2 px-6 py-2 bg-black rounded-lg hover:bg-gray-700 text-white"
+            className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-black rounded-lg hover:bg-gray-700 text-white"
           >
             Buy Cards
           </Link>
@@ -43,6 +44,7 @@ const Home = () => {
     ` <Collection/>
       <Benefits/>
       <FAQ/>
+      <Testimonial/>
       <SellPanel/>
     </div>
   );
