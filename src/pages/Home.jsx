@@ -21,13 +21,13 @@ const Home = () => {
           Specialists in Pokémon™ Trading cards, powered by Technology. You can
           trust Day Empire for delivering authenticity and excellence.
         </p>
-        <div className="flex justify-center gap-2 mt-6">
+        <div className="sm:flex justify-center gap-2 mt-6">
           <Link
             to="/#BuyCards"
             title="Buy Pokemon cards"
-            className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-black rounded-lg hover:bg-gray-700 text-white"
+            className="mb-2 sm:mb-0 inline-flex items-center justify-center gap-2 px-6 py-3 bg-black rounded-lg hover:bg-gray-700 text-white"
           >
-            Buy Cards
+            Buy Pokemon Cards
           </Link>
 
           <Link

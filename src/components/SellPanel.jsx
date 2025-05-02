@@ -22,7 +22,7 @@ const SellPanel = () => {
             <a
               href="#SellCards"
               title="Sell unwanted cards with Day Empire"
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 bg-black rounded-lg hover:bg-gray-700 text-white"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-black rounded-lg hover:bg-gray-700 text-white"
             >
               Get in touch</a>
           </div>

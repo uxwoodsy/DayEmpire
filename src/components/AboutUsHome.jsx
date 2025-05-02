@@ -18,7 +18,7 @@ const AboutUsHome = () => {
             top-tier customer support and a seamless shopping experience, making
             us your trusted partner in building a prestigious collection.
           </p>
-          <div className="flex justify-center mt-6">
+          <div className="sm:flex justify-center mt-6">
             <Link
               to="/about-us"
               title="Learn About Day Empire"

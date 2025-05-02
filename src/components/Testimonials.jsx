@@ -70,11 +70,12 @@ const Testimonial = () => {
           </div>
         </div>
 
-        <div className="flex justify-center gap-2 mt-10 sm:mt-16">
+
+        <div className="mx-auto sm:flex justify-center gap-2 mt-10 sm:mt-16 text-center">
           <a
             href="https://www.cardmarket.com/en/Pokemon/Users/DayEmpire"
             title="See Day Empire Full Collection" target="_blank"
-            className="sm:w-auto mb-2 sm:mb-0 inline-flex items-center justify-center gap-2 px-6 py-3 bg-black rounded-lg hover:bg-gray-700 text-white"
+            className="mb-2 sm:mb-0 inline-flex items-center justify-center gap-2 px-6 py-3 bg-black rounded-lg hover:bg-gray-700 text-white"
           >
             See all reviews
           </a>
@@ -82,11 +83,12 @@ const Testimonial = () => {
           <a
             href="https://www.cardmarket.com/en/Pokemon/Users/DayEmpire"
             title="Join Day Empire community" target="_blank"
-            className="sm:w-auto flex items-center underline hover:no-underline justify-center gap-2 px-6 py-3 relative bg-white rounded-lg text-black hover:text-gray-500"
+            className="flex items-center underline hover:no-underline justify-center gap-2 px-6 py-3 relative bg-white rounded-lg text-black hover:text-gray-500"
           >
             Join our community
           </a>
         </div>
+
       </div>
 
       </div>

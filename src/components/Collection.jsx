@@ -19,13 +19,13 @@ const Collection = () => {
           something for everyone. If you know what you're looking for, try using
           our search tool to find it quickly and easily.
         </p>
-        <div className="flex justify-center gap-2 mt-6">
+        <div className="sm:flex justify-center gap-2 mt-6">
           <a
             href="https://www.cardmarket.com/en/Pokemon/Users/DayEmpire"
             title="See Day Empire Full Collection" target="_blank"
-            className="inline-flex items-center justify-center gap-2 px-6 py-2 bg-black rounded-lg hover:bg-gray-700 text-white"
+            className="mb-2 sm:mb-0 inline-flex items-center justify-center gap-2 px-6 py-3 bg-black rounded-lg hover:bg-gray-700 text-white"
           >
-            Our Collection
+            Our collection
           </a>
 
           <Link
@@ -33,7 +33,7 @@ const Collection = () => {
             title="Search Day Empire Collection"
             className="flex items-center underline hover:no-underline justify-center gap-2 px-6 py-3 relative bg-white rounded-lg text-black hover:text-gray-500"
           >
-            Search Collection
+            Search collection
           </Link>
         </div>
       </div>
@@ -83,7 +83,7 @@ const Collection = () => {
                 Precision-crafted for gameplay mechanics, these collectible
                 coins enhance battle decisions and add aesthetic appeal.
               </p>
-              <button className="bg-white rounded-lg cursor-pointer text-black hover:text-gray-500 px-6 py-3 border">
+              <button className=" bg-white rounded-lg cursor-pointer text-black hover:text-gray-500 px-6 py-3 border">
                 Upgrade Your Game
               </button>
             </div>
@@ -105,7 +105,7 @@ const Collection = () => {
                 Essential for tracking damage and game statistics, these
                 high-quality dice ensure accuracy in every match.
               </p>
-              <button className="bg-white rounded-lg cursor-pointer text-black hover:text-gray-500 px-6 py-3 border">
+              <button className=" bg-white rounded-lg cursor-pointer text-black hover:text-gray-500 px-6 py-3 border">
                 Get Yours Today
               </button>
             </div>

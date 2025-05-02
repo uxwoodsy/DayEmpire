@@ -4,13 +4,10 @@ import { useState } from "react";
 const FAQItem = ({ question, answer }) => {
 const [isOpen, setIsOpen] = useState(false);
 
-
-
-
 return (
 <div className="border-b border-gray-300 py-6 mx-auto max-w-4xl">
   <button
-    className="w-full flex justify-between items-center sm:text-lg font-bold text-gray-700 cursor-pointer"
+    className="w-full flex justify-between items-center sm:text-lg font-bold text-black cursor-pointer"
     onClick={() => setIsOpen(!isOpen)}
   >
     {question}
