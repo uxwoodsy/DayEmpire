@@ -6,7 +6,7 @@ import AboutUsHome from "../components/AboutUsHome"
 import Collection from "../components/Collection"
 import SellPanel from "../components/SellPanel"
 import Testimonial from "../components/Testimonials";
-import MetaUpdater from "../UseMetaData";
+import MetaUpdater from "../MetaData";
 
 const Home = () => {
 

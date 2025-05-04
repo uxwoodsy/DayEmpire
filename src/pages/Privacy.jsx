@@ -1,5 +1,5 @@
 import React from "react";
-import MetaUpdater from "../UseMetaData";
+import MetaUpdater from "../MetaData";
 
 const Privacy = () => {
 

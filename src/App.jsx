@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -10,12 +10,23 @@ import ContactUs from "./pages/ContactUs";
 import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";
 import NotFound from "./pages/NotFoud";
+import Canonical from "./Canonical";
 import "./App.css";
 
 function App() {
+  const location = useLocation();
+  const canonicalMap = {
+    "/": "https://dayempire.com",
+    "/about-us": "https://dayempire.com/about-us",
+    "/contact-us": "https://dayempire.com/contact-us",
+    "/privacy": "https://dayempire.com/privacy",
+    "/terms": "https://dayempire.com/terms",
+};
+
   return (
-    <Router>
+  <>
       <ScrollToTop />
+      <Canonical url={canonicalMap[location.pathname] || "https://dayempire.com"} />
       <Header />
       <main className="mx-auto">
         <Routes>
@@ -30,7 +41,7 @@ function App() {
       <ContactForm />
       <Certification />
       <Footer />
-    </Router>
+  </>
   );
 }
 

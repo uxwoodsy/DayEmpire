@@ -7,8 +7,8 @@ const SellPanel = () => {
 
       <div className="flex flex-col md:flex-row items-center max-w-7xl mx-auto px-8 gap-16 sm:px-6 lg:px-8 pt-16 pb-16 mb-16 lg:pt-32 lg:pb-32 lg:mb-16">
 
-       <img src="/pokemon-collection.png" alt="Sell unwanted Pokemon Cards with Day Emmpire" class="w-full md:w-1/2 rounded-lg"/>
-       <div class="w-full md:w-1/2">
+       <img src="/pokemon-collection.png" alt="Sell unwanted Pokemon Cards with Day Emmpire" className="w-full md:w-1/2 rounded-lg"/>
+       <div className="w-full md:w-1/2">
        <span className="mb-6 px-4 py-1 bg-orange-200 mx-auto inline-flex rounded-4xl">
             Sell unwanted cards
           </span>

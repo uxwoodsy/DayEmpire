@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import MetaUpdater from "../UseMetaData";
+import MetaUpdater from "../MetaData";
 
 const NotFound = () => {
 

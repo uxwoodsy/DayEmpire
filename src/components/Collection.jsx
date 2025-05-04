@@ -52,7 +52,7 @@ const Collection = () => {
               <img
                 src="/pokemon-gengar-coin.png"
                 alt="Buy Pokémon™ Coins"
-                class="w-full object-cover rounded-md"
+                className="w-full object-cover rounded-md"
               />
               <h2 className="text-xl font-bold mt-4 pb-2">Pokémon™ Cards</h2>
               <p className="mb-4 px-6">
