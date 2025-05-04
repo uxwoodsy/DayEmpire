@@ -6,10 +6,15 @@ import AboutUsHome from "../components/AboutUsHome"
 import Collection from "../components/Collection"
 import SellPanel from "../components/SellPanel"
 import Testimonial from "../components/Testimonials";
+import MetaUpdater from "../UseMetaData";
 
 const Home = () => {
+
   return (
     <div>
+
+      <MetaUpdater title="Day Empire - Pokémon™ Trading Cards & Collectibles" description="Discover top-tier Pokémon™ trading cards at At Day Empire. Expert curation, cutting-edge technology, and a passion for collectibles—be the best, like no one ever was!"/>
+
       <div className="mx-auto max-w-7xl px-8 sm:px-6 lg:px-8 pt-16 pb-16 text-center lg:pt-32 lg:pb-32">
         <span className="mb-6 px-4 py-1 bg-orange-200 mx-auto inline-flex rounded-4xl">
           Over 30,000 items for sale!

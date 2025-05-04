@@ -1,8 +1,12 @@
 import React from "react";
+import MetaUpdater from "../UseMetaData";
 
 const Privacy = () => {
+
   return (
+
     <div className="mx-auto">
+      <MetaUpdater title="Day Empire - Privacy Policy" description="Learn how Day Empire protects your data and ensures privacy while you shop, trade, and collect Pokémon™ cards with us."/>
       <div className="mx-auto max-w-7xl px-8 sm:px-6 lg:px-8 pt-16 pb-16 text-center lg:pt-32 lg:pb-32">
         <span className="mb-6 px-4 py-1 bg-orange-200 mx-auto inline-flex rounded-4xl">
           Privacy Policy

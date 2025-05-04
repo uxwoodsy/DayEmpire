@@ -1,8 +1,10 @@
 import React from "react";
+import MetaUpdater from "../UseMetaData";
 
 const Terms = () => {
   return (
     <div className="mx-auto">
+      <MetaUpdater title="Day Empire - Terms of Service" description="Read Day Empire’s terms of service to understand our policies on Pokémon™ card trading, sales, and customer rights."/>
       <div className="mx-auto max-w-7xl px-8 sm:px-6 lg:px-8 pt-20 pb-20 text-center lg:pt-32 lg:pb-32">
         <span className="mb-6 px-4 py-1 bg-orange-200 mx-auto inline-flex rounded-4xl">
           Terms of Service

@@ -1,8 +1,11 @@
 import React from "react";
+import MetaUpdater from "../UseMetaData";
 
 const AboutUs = () => {
   return (
     <div className="mx-auto relative">
+
+     <MetaUpdater title="About Day Empire - Pokémon™ Card Experts & Collectors" description="At Day Empire, we’re Pokémon™ trading card specialists, combining expertise with technology to deliver an unparalleled collecting experience. Join us in the world of Pokémon™!"/>
 
      <div className="hidden lg:inline absolute -right-50 top-10"><img src='/mewtwo-card.png' className="w-0 xl:w-[500px] 2xl:w-[600px]"  alt='Image shows a Mewtwo Pokemon card'/></div>
      <div className="hidden lg:inline absolute right-70 top-10"><img src='/raichu-coin.png' className="w-0  xl:w-[168px] 2xl:w-[168px]"  alt='Image shows a Raichu coin'/></div>
