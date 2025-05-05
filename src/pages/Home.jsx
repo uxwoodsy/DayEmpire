@@ -37,7 +37,7 @@ const Home = () => {
 
           <Link
             to="/about-us"
-            title="Buy Pokemon cards"
+            title="Learn about Day Empire"
             className="flex items-center underline hover:no-underline justify-center gap-2 px-6 py-3 relative bg-white rounded-lg text-black hover:text-gray-500"
           >
             Learn more

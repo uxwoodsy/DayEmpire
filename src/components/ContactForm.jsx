@@ -1,6 +1,24 @@
-import React from 'react';
+import React, { useState }  from 'react';
 
-const ContactForm = () => { 
+const ContactForm = () => {
+  
+  const [formData, setFormData] = useState({
+      name: "",
+      email: "",
+      details: ""
+    });
+
+    const handleChange = (e) => {
+      setFormData({ ...formData, [e.target.name]: e.target.value });
+    };
+
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      const { name, email, details } = formData;
+      const mailtoUrl = `mailto:contact@dayempire.co.uk?subject=Bulk%20Card%20Sale%20Enquiry%20-%20${encodeURIComponent(name)}&body=Name%3A%20${encodeURIComponent(name)}%0D%0AEmail%3A%20${encodeURIComponent(email)}%0D%0ACard%20Bulk%20Details%3A%20${encodeURIComponent(details)}`;
+      window.open(mailtoUrl, "_blank");
+  };
+
     return (
     <>
     
@@ -15,26 +33,24 @@ const ContactForm = () => {
     </div>
 
     <div className='flex mx-8 mb-20 sm:mx-16 justify-center lg:mb-32'>
-        <form action='' id='ContactForm' className='w-xl' method='POST' encType='multipart/form-data'>
+        <form action='' id='ContactForm' className='w-xl' method='POST' encType='multipart/form-data' onSubmit={handleSubmit}>
          
         <div className='w-full mb-6'>
-          <label className='py-2'>Name</label>
-          <input type="text" id="name" name="name" required className='border-1 w-full border-gray-300 p-3'/>
+          <label for="name" className='py-2'>Name</label>
+          <input type="text" id="name" name="name" required className='border-1 w-full border-gray-300 p-3' onChange={handleChange}/>
         </div>
 
         <div className='w-full mb-6'>
-        <label className='py-2'>Email</label>
-        <input type="text" id="email" name="email" required className='border-1 w-full border-gray-300 p-3'/>
+        <label for="Email" className='py-2'>Email</label>
+        <input type="text" id="email" name="email" required className='border-1 w-full border-gray-300 p-3' onChange={handleChange}/>
         </div>
 
         <div className='w-full mb-6'>
-          <label className='py-2'>Details about the cards you want to sell</label>
-          <textarea rows='8' id='message' name='message' required className='border-1 w-full border-gray-300 p-3'></textarea>
+          <label for="details" className='py-2'>Details about the cards you want to sell</label>
+          <textarea rows='8' id='details' name='details' required className='border-1 w-full border-gray-300 p-3' onChange={handleChange}></textarea>
         </div>
 
-        <button type="submit" className='w-full sm:w-auto cursor-pointer inline-flex items-center justify-center px-6 py-3 bg-black rounded-lg hover:bg-gray-700 text-white'>Enquire Today</button>
-        
-        <span></span>
+        <button type="submit" aria-label='Submit form' className='w-full sm:w-auto cursor-pointer inline-flex items-center justify-center px-6 py-3 bg-black rounded-lg hover:bg-gray-700 text-white'>Enquire Today</button>
         
         </form>
       </div>
