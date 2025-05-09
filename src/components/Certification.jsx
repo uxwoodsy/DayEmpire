@@ -9,7 +9,7 @@ const Certfication = () => {
           <li>
             <a href="https://www.cardmarket.com/en/Pokemon/Users/DayEmpire" title="Day Empire is certifed with Card Market" target="_blank">
             <img
-              src="/card-market.png"
+              src="/card-market.webp"
               role="img"
               aria-label="Certifed with Cardmarket"
               height={140}
@@ -18,7 +18,7 @@ const Certfication = () => {
           </li>
           <li>
             <img
-              src="/pokemon-trading.png"
+              src="/pokemon-trading.webp"
               height={140}
               role="img"
               aria-label="Pokemon Trading Cards"
@@ -28,7 +28,7 @@ const Certfication = () => {
           <li>
           <a href="https://aws.amazon.com/startups" title="Day Empire backed by AWS Startup" target="_blank">
             <img
-              src="/amazon-startup.png"
+              src="/amazon-startup.webp"
               height={140}
               role="img"
               aria-label="Backed by AWS Startup"
