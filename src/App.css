@@ -49,3 +49,8 @@ html {
 .read-the-docs {
   color: #888;
 }
+
+.hero{
+    height: 100vh;
+    background-repeat: no-repeat;
+}

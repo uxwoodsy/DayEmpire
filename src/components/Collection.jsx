@@ -50,8 +50,8 @@ const Collection = () => {
           >
             <div className="bg-white rounded-lg cursor-pointer">
               <img
-                src="/pokemon-gengar-coin.png"
-                alt="Buy Pokémon™ Coins"
+                src="/pokemon-eevee.webp"
+                alt="Buy Pokémon™ cards"
                 className="w-full object-cover rounded-md"
               />
               <h2 className="text-xl font-bold mt-4 pb-2">Pokémon™ Cards</h2>
@@ -74,7 +74,7 @@ const Collection = () => {
           >
             <div className="bg-white rounded-lg cursor-pointer">
               <img
-                src="/pokemon-charizard-coin.png"
+                src="/pokemon-charizard-coin.webp"
                 alt="Buy Pokémon™ Coins"
                 className="w-full object-cover rounded-md"
               />
@@ -96,7 +96,7 @@ const Collection = () => {
           >
             <div className="bg-white rounded-lg cursor-pointer">
               <img
-                src="/pokemon-dice.png"
+                src="/pokemon-dice.webp"
                 alt="Buy Pokémon™ Dice"
                 className="w-full object-cover rounded-md"
               />

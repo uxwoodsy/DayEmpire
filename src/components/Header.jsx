@@ -101,10 +101,10 @@ const Header = () => {
           <div className="hidden md:flex items-center justify-end gap-2 ">
             <a
               href="#SellCards"
-              title="Sell your Pokemon cards"
+              title="Ask Us about Pokemon cards"
               className="flex items-center justify-center gap-2 px-6 py-2 relative bg-white rounded-lg text-black hover:text-gray-500"
             >
-              Sell Cards
+              Enquire
             </a>
 
             <Link

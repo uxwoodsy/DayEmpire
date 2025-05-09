@@ -4,9 +4,12 @@ import MetaUpdater from "../MetaData";
 const ContactUs = () => {
 
   return (
-    <div className="mx-auto">
 
-      <MetaUpdater title="Contact Day Empire - Pokémon™ Collectibles & Trading Assistance" description="Have questions or need Pokémon™ trading card advice? Contact Day Empire today—your trusted partner in collecting and trading."/>
+
+    <> 
+    
+    <MetaUpdater title="Contact Day Empire - Pokémon™ Collectibles & Trading Assistance" description="Have questions or need Pokémon™ trading card advice? Contact Day Empire today—your trusted partner in collecting and trading."/>
+    <div className="mx-auto">
 
       <div className="mx-auto max-w-7xl px-8 sm:px-6 lg:px-8 pt-20 pb-20 text-center lg:pt-32 lg:pb-32">
         <span className="mb-6 px-4 py-1 bg-orange-200 mx-auto inline-flex rounded-4xl">
@@ -213,6 +216,8 @@ const ContactUs = () => {
         We strive to respond to all inquiries within 24 hours. Your questions and feedback are important to us!
         </div>
     </div>
+
+    </>
   );
 };
 

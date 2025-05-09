@@ -7,16 +7,17 @@ const SellPanel = () => {
 
       <div className="flex flex-col md:flex-row items-center max-w-7xl mx-auto px-8 gap-16 sm:px-6 lg:px-8 pt-16 pb-16 mb-16 lg:pt-32 lg:pb-32 lg:mb-16">
 
-       <img src="/pokemon-collection.png" alt="Sell unwanted Pokemon Cards with Day Emmpire" className="w-full md:w-1/2 rounded-lg"/>
+       <img src="/pokemon-collection.webp" alt="Sell unwanted Pokemon Cards with Day Emmpire" className="w-full md:w-1/2 rounded-lg"/>
+       
        <div className="w-full md:w-1/2">
        <span className="mb-6 px-4 py-1 bg-orange-200 mx-auto inline-flex rounded-4xl">
-            Sell unwanted cards
+           Contact Us
           </span>
           <h2 className="mx-auto max-w-3xl font-bold font-display text-3xl sm:text-4xl lg:text-5xl tracking-tight text-black">
-            Clear the decks with our expert assistance!
+           Speak with our expert assistance!
           </h2>
           <p className="mt-6 max-w-2xl text-lg tracking-tight text-gray-600">
-          We're always on the lookout to buy bulk Pokémon™ cards but do not commit to a bulk price. We instead will need to see a few photographs of the cards in full and can work with you locally to collect and appraise the value of the stock.
+          Have questions about Pokémon™ cards? We’re here to help! Whether you're curious about bulk cards, valuations, or general advice, we’ve got you covered. Just reach out, and we’ll be happy to chat, share insights, and help with whatever you need. Let’s connect!
           </p>
           <div className="flex mt-6">
             <a

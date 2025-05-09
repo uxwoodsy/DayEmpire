@@ -5,9 +5,9 @@ import MetaUpdater from "../MetaData";
 const NotFound = () => {
 
     return (
-  <div className="mx-auto max-w-7xl px-8 sm:px-6 lg:px-8 pt-20 pb-20 text-center lg:pt-32 lg:pb-32">
-
+<>
 <MetaUpdater title="Day Empire - Page Not Found" description="Looks like Team Rocket stole this page!"/>
+  <div className="mx-auto max-w-7xl px-8 sm:px-6 lg:px-8 pt-20 pb-20 text-center lg:pt-32 lg:pb-32">
 
       <span className="mb-6 px-4 py-1 bg-orange-200 mx-auto inline-flex rounded-4xl">Page not found</span>
       <h1 className='mx-auto max-w-5xl font-bold font-display text-5xl tracking-tight text-black sm:text-7xl'>Team Rocket Stole This Page!</h1>
@@ -20,7 +20,7 @@ const NotFound = () => {
       </div>
 
   </div>
-
+  </>
     );
   }
   

@@ -45,7 +45,7 @@ const Footer = () => {
               >
                 Buy
               </Link>
-            </li>
+            </li>{/* Hide  
             <li className="mt-2 sm:mt-0">
               <a
                 href="#SellCards"
@@ -54,7 +54,7 @@ const Footer = () => {
               >
                 Sell
               </a>
-            </li>
+            </li>*/}
             <li className="mt-2 sm:mt-0">
               <Link
                 to="/about-us"

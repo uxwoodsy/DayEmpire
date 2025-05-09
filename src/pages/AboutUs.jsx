@@ -3,15 +3,19 @@ import MetaUpdater from "../MetaData";
 
 const AboutUs = () => {
   return (
+
+
+    <>
+    <MetaUpdater title="About Day Empire - Pokémon™ Card Experts & Collectors" description="At Day Empire, we’re Pokémon™ trading card specialists, combining expertise with technology to deliver an unparalleled collecting experience. Join us in the world of Pokémon™!"/>
+
     <div className="mx-auto relative">
 
-     <MetaUpdater title="About Day Empire - Pokémon™ Card Experts & Collectors" description="At Day Empire, we’re Pokémon™ trading card specialists, combining expertise with technology to deliver an unparalleled collecting experience. Join us in the world of Pokémon™!"/>
-
-     <div className="hidden lg:inline absolute -right-50 top-10"><img src='/mewtwo-card.png' className="w-0 xl:w-[500px] 2xl:w-[600px]"  alt='Image shows a Mewtwo Pokemon card'/></div>
-     <div className="hidden lg:inline absolute right-70 top-10"><img src='/raichu-coin.png' className="w-0  xl:w-[168px] 2xl:w-[168px]"  alt='Image shows a Raichu coin'/></div>
-     <div className="hidden lg:inline absolute left-30 top-10"><img src='/blastiose-coin.png' className="w-0 xl:w-[168px] 2xl:w-[168px]"  alt='Image shows a Blastoise coin'/></div>
-     <div className="hidden lg:inline absolute -right-20 top-80 -rotate-10"><img src='/sam-owner-card.png' className="w-0  xl:w-[300px] 2xl:w-[467px]"  alt='Image shows Sam, owner of the Day Empire'/></div>
-     <div className="hidden lg:inline absolute -left-20 top-60 rotate-10"><img src='/tom-owner-card.png' className="w-0 xl:w-[300px] 2xl:w-[467px]"  alt='Image shows Tom, owner of the Day Empire'/></div>
+    
+     <div className="hidden lg:inline absolute -right-50 top-10"><img src='/squirtle-card.webp' className="w-0 xl:w-[500px] 2xl:w-[600px]"  alt='Image shows a Squirtle Pokemon card'/></div>
+     <div className="hidden lg:inline absolute right-70 top-10"><img src='/raichu-coin.webp' className="w-0  xl:w-[168px] 2xl:w-[168px]"  alt='Image shows a Raichu coin'/></div>
+     <div className="hidden lg:inline absolute left-30 top-10"><img src='/blastiose-coin.webp' className="w-0 xl:w-[168px] 2xl:w-[168px]"  alt='Image shows a Blastoise coin'/></div>
+     <div className="hidden lg:inline absolute -right-20 top-80 -rotate-10"><img src='/sam-owner-card.webp' className="w-0  xl:w-[300px] 2xl:w-[467px]"  alt='Image shows Sam, owner of the Day Empire'/></div>
+     <div className="hidden lg:inline absolute -left-20 top-60 rotate-10"><img src='/tom-owner-card.webp' className="w-0 xl:w-[300px] 2xl:w-[467px]"  alt='Image shows Tom, owner of the Day Empire'/></div>
 
       <div className="relative mx-auto max-w-7xl px-8 sm:px-6 lg:px-8 pt-16 pb-16 text-center lg:pt-32 lg:pb-32">
         
@@ -98,6 +102,7 @@ const AboutUs = () => {
         </p>
       </div>
     </div>
+    </>
   );
 };
 
