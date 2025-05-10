@@ -1,7 +1,10 @@
 import React, { useState }  from 'react';
+import { useLocation } from "react-router-dom";
 
 const ContactForm = () => {
-  
+  const location = useLocation();
+  const isNotFoundPage = !["/", "/about-us", "/contact-us", "/terms", "/privacy"].includes(location.pathname);
+
   const [formData, setFormData] = useState({
       name: "",
       email: "",
@@ -23,12 +26,34 @@ const ContactForm = () => {
     <>
     
     <div id='SellCards' className="relative flex mx-8 sm:mx-16 sm:justify-center">
+     
+    {!isNotFoundPage && (
+        <>
+     
       <div className="hidden lg:inline absolute -left-50 top-10"><img src='/large-pikachu-tilt.webp' className="w-0 xl:w-[400px] 2xl:w-[600px]"  alt='Image shows a Pikachu Pokemon card'/></div>
       <div className="hidden lg:inline absolute -right-60 top-100"><img src='/pokemon-stacked-cards.webp' className="w-0 xl:w-[400px] 2xl:w-[600px]"  alt='Image shows stacked Pokemon cards'/></div>
-     
+    
+      </>
+)}
+
+      {isNotFoundPage && (
+        <>
+          <div className="hidden lg:inline absolute -left-50 top-10">
+            <img src="/team-rocket.webp" className="w-0 xl:w-[400px] 2xl:w-[600px]" alt="Image shows Team Rocket Leader" />
+          </div>
+          <div className="hidden lg:inline absolute -right-60 top-100">
+            <img src="/team-rocket.webp" className="w-0 xl:w-[400px] 2xl:w-[600px]" alt="Image shows Team Rocket" />
+          </div>
+        </>
+        )}
+
+
+
+
+
       <div className="mx-auto max-w-7xl sm:px-6 lg:px-8 pb-6 text-center lg:pt-16 lg:pb-16">
           <h2 className='mx-auto max-w-5xl font-bold font-display text-3xl tracking-tight text-black sm:text-5xl'>Get in touch with us</h2>
-          <p className='mx-auto mt-6 max-w-2xl text-lg tracking-tight text-gray-600'>Getting in touch with us is easy! If you're looking to sell Pokémon™ cards—whether it's a single rare gem or an entire collection—we're here to make the process simple, fast, and hassle-free. No matter where you are in the UK, we’re ready to connect with collectors, fans, and sellers alike. Reach out today and let’s get started!</p>
+          <p className='mx-auto mt-6 max-w-2xl text-lg tracking-tight text-gray-600'>Getting in touch with us is easy! Whether you have a question about a specific card or just want to connect, we're here for collectors, fans, and sellers alike. Reach out today!</p>
       </div>
     </div>
 
