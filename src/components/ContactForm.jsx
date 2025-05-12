@@ -41,14 +41,11 @@ const ContactForm = () => {
           <div className="hidden lg:inline absolute -left-50 top-10">
             <img src="/team-rocket.webp" className="w-0 xl:w-[400px] 2xl:w-[600px]" alt="Image shows Team Rocket Leader" />
           </div>
-          <div className="hidden lg:inline absolute -right-60 top-100">
-            <img src="/team-rocket.webp" className="w-0 xl:w-[400px] 2xl:w-[600px]" alt="Image shows Team Rocket" />
+          <div className="hidden lg:inline absolute -right-60 top-10">
+            <img src="/persian.webp" className="w-0 xl:w-[400px] 2xl:w-[600px]" alt="Image shows Team Rocket Leader Persian" />
           </div>
         </>
         )}
-
-
-
 
 
       <div className="mx-auto max-w-7xl sm:px-6 lg:px-8 pb-6 text-center lg:pt-16 lg:pb-16">

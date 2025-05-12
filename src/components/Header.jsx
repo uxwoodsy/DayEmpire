@@ -30,7 +30,7 @@ const Header = () => {
 
   return (
     <>
-      <header ref={headerRef} className="flex h-[72px] items-center justify-center px-8 md:px-16 py-0 relative bg-white border-b-1 border-gray-200">
+      <header ref={headerRef} className="flex h-[72px] z-200 items-center justify-center px-8 md:px-16 py-0 relative bg-white border-b-1 border-gray-200">
         <div className="flex items-center justify-between w-full">
           <nav className="hidden md:inline-flex items-start gap-8 list-none">
             <ul className="inline-flex  gap-8">
@@ -135,7 +135,7 @@ const Header = () => {
               <li><Link to="/" onClick={() => setMenuOpen(false)} title="Day Empire Home Page" className="text-black hover:text-gray-500 block text-lg bg-white border-b-1 px-8 py-4 border-gray-200 ">Home</Link></li>
               <li><Link to="/about-us" onClick={() => setMenuOpen(false)} title="About Day Empire" className="text-black hover:text-gray-500 block  text-lg bg-white border-b-1  px-8 py-4 border-gray-200 ">About Us</Link></li>
               <li><Link to="/contact-us" onClick={() => setMenuOpen(false)} title="Contact the Day Empire team" className="text-black hover:text-gray-500 block text-lg bg-white border-b-1  px-8 py-4 border-gray-200  ">Contact Us</Link></li>
-              <li><a href="#SellCards" onClick={() => setMenuOpen(false)} title="Sell your Pokemon cards"  className="text-black hover:text-gray-500 block text-lg bg-white  px-8 py-4  ">Sell Cards</a></li>
+              <li><a href="#SellCards" onClick={() => setMenuOpen(false)} title="Sell your Pokemon cards"  className="text-black hover:text-gray-500 block text-lg bg-white  px-8 py-4  ">Enquire</a></li>
               </ul>
               <div className="px-8 py-8 fixed bottom-0 w-full">
                 <Link to="/#BuyCards"  onClick={() => setMenuOpen(false)} title="Buy Pokemon cards" className="inline-flex w-full items-center justify-center px-6 py-3 bg-black rounded-lg hover:bg-gray-700 text-white text-lg ">Buy Cards</Link>
