@@ -17,31 +17,6 @@ const Home = () => {
 
 <div className="hero">
 
-      <div className="w-[380px] 2xl:w-auto left-10 absolute sm:left-50 -bottom-30 z-50">
-            <img src="/charizard-card.webp" alt="Image shows Charizard" />
-      </div>
-
-      <div className="hidden   2xl:inline absolute right-100 bottom-10 z-50">
-            <img src="/venusaur-card.webp" alt="Image shows Venusaur" />
-      </div>
-
-      <div className="hidden  2xl:inline absolute right-70 bottom-20 z-50">
-            <img src="/blastoise-card.webp" alt="Image shows Blastiose" />
-      </div>
-
-<div className="hidden 2xl:inline absolute left-50 top-50 z-50">
-            <img src="/pikachu-coin.webp" alt="Image shows an pikachu" />
-          </div>
-        
-          <div className="hidden 2xl:inline absolute right-20 top-80 z-50">
-            <img src="/umbreon-card.webp" alt="Image shows Umbreon" />
-          </div>
-          
-          <div className="hidden 2xl:inline absolute right-20 top-20 z-50">
-            <img src="/raichu-coin.webp" alt="Image shows Raichu coin" />
-          </div>
-
-
   <div className="triangle z-10"></div>
 
       <div className="mx-auto relative max-w-7xl px-8 sm:px-6 lg:px-8 pt-16 pb-16 text-center lg:pt-32 lg:pb-32 z-100">
