@@ -67,7 +67,7 @@ const Home = () => {
           <Link
             to="/about-us"
             title="Learn about Day Empire"
-            className="flex items-center underline hover:no-underline justify-center gap-2 px-6 py-3 relative w-auto bg-white rounded-lg text-black hover:text-gray-500"
+            className="flex items-center underline hover:no-underline justify-center gap-2 px-6 py-3 relative w-auto  text-black hover:text-gray-500"
           >
             Learn more
           </Link>
