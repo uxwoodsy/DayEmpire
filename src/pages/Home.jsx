@@ -15,15 +15,18 @@ const Home = () => {
 
       <MetaUpdater title="Day Empire - Pokémon™ Trading Cards & Collectibles" description="Discover top-tier Pokémon™ trading cards at At Day Empire. Expert curation, cutting-edge technology, and a passion for collectibles—be the best, like no one ever was!"/>
 
-<div className="hero">
+<div className="hero lg:h-full">
 
   <div className="triangle z-10"></div>
+
+ <div className="absolute -left-5 lg:left-10 top-120"><img src="/charizard-card.webp" className="max-w-[150px]"/></div>
+ <div className="absolute -right-5 lg:left-10 top-120"><img src="/blastoise-card.webp" className="max-w-[150px]"/></div>
 
       <div className="mx-auto relative max-w-7xl px-8 sm:px-6 lg:px-8 pt-16 pb-16 text-center lg:pt-32 lg:pb-32 z-100">
         <span className="mb-6 px-4 py-1 bg-orange-200 mx-auto inline-flex rounded-4xl">
           Over 30,000 items for sale!
         </span>
-        <h1 className="mx-auto max-w-5xl font-bold font-display text-5xl tracking-tight text-black sm:text-7xl">
+        <h1 className="mx-auto max-w-5xl font-bold font-display text-5xl tracking-tight text-black sm:text-6xl xl:text-7xl">
           Elevate your Pokémon™ collection to the next level
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-gray-600">
@@ -54,8 +57,8 @@ const Home = () => {
       <AboutUsHome/>
     ` <Collection/>
       <Benefits/>
-      <Testimonial/>
       <FAQ/>
+      <Testimonial/>
       <SellPanel/>
     </>
   );

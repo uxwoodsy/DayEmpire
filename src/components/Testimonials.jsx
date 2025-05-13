@@ -2,7 +2,7 @@ import React from "react";
 
 const Testimonial = () => {
   return (
-    <div className="mx-8 mb-16 lg:mb-32 border-t-1 pt-16 border-gray-200 sm:border-0 sm:pt-0 ">
+    <div className="mx-8 mb-16 lg:mb-32">
 
       <div className="mx-auto max-w-7xl lg:px-8 pb-10 text-center lg:pb-16 relative">
         <span className="mb-6 px-4 py-1 bg-orange-200 mx-auto inline-flex rounded-4xl">
