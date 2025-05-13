@@ -19,8 +19,8 @@ const Home = () => {
 
   <div className="triangle z-10"></div>
 
- <div className="absolute left-0 lg:left-10 top-140"><img src="/charizard-card.webp" className="max-w-[300px] sm:max-w-[200px]"/></div>
- <div className="absolute right-0 lg:left-10 top-140"><img src="/blastoise-card.webp" className="max-w-[300px] sm:max-w-[200px]"/></div>
+ <div className="absolute left-0 lg:left-10 top-150"><img src="/charizard-card.webp" className="max-w-[150px] sm:max-w-[200px]"/></div>
+ <div className="absolute right-0 lg:left-10 top-150"><img src="/blastoise-card.webp" className="max-w-[150px] sm:max-w-[200px]"/></div>
 
       <div className="mx-auto relative max-w-7xl px-8 sm:px-6 lg:px-8 pt-16 pb-16 text-center lg:pt-32 lg:pb-32 z-100">
         <span className="mb-6 px-4 py-1 bg-orange-200 mx-auto inline-flex rounded-4xl">
