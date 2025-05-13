@@ -32,7 +32,7 @@ const AboutUs = () => {
         </p>
       </div>
 
-      <div className="mx-auto px-8 pb-20 lg:px-8 max-w-[768px]">
+      <div className="mx-auto px-8 pb-8 lg:px-8 max-w-[768px]">
         <h2 className="font-bold font-display text-xl tracking-tight text-black pb-6">
           We wanna be the very best, like no one ever was.
         </h2>
@@ -101,7 +101,7 @@ const AboutUs = () => {
           Pokémon™ adventure!
         </p>
 
-        <div className="mt-16 xl:hidden"><img src="/profile.webp" alt="Image show Sam and Tom. Creators of Day Empire."/></div>
+        <div className="mt-8 xl:hidden"><img src="/profile.webp" alt="Image show Sam and Tom. Creators of Day Empire."/></div>
       </div>
     </div>
     </>
