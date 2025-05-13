@@ -15,14 +15,21 @@ const Home = () => {
 
       <MetaUpdater title="Day Empire - Pokémon™ Trading Cards & Collectibles" description="Discover top-tier Pokémon™ trading cards at At Day Empire. Expert curation, cutting-edge technology, and a passion for collectibles—be the best, like no one ever was!"/>
 
-<div className="hero lg:h-full">
+<div className="bg-[url('/empire-crown.webp')] bg-bottom sm:bg-[0%_80%] bg-cover xl:h-screen">
 
-  <div className="triangle z-10"></div>
 
- <div className="absolute left-0 lg:left-10 top-150"><img src="/charizard-card.webp" className="max-w-[150px] sm:max-w-[200px]"/></div>
- <div className="absolute right-0 lg:left-10 top-150"><img src="/blastoise-card.webp" className="max-w-[150px] sm:max-w-[200px]"/></div>
+<div className="hidden xl:inline absolute left-0 lg:left-20 top-110 z-100"><img src="/pikachu-coin.webp" alt="Image shows a Pikachu coin"/></div>
 
-      <div className="mx-auto relative max-w-7xl px-8 sm:px-6 lg:px-8 pt-16 pb-16 text-center lg:pt-32 lg:pb-32 z-100">
+
+ <div className="hidden xl:inline absolute left-0 lg:left-30 top-110 z-60"><img src="/charizard-card.webp" alt="Image shows a Charizard card"/></div>
+ <div className="hidden xl:inline absolute left-0 lg:left-110 top-160 z-60"><img src="/umbreon-card.webp" alt="Image shows a Umbreon card"/></div>
+    <div className="hidden xl:inline absolute right-0 lg:right-30 top-110 z-70"><img src="/blastoise-card.webp" alt="Image shows a Blastoise card" /></div>
+    <div className="hidden xl:inline absolute right-0 lg:right-110 top-160 z-70"><img src="/venusaur-card.webp" alt="image shows a Venusaur card"/></div>
+
+    <div className="hidden xl:inline absolute right-0 lg:right-0 top-110 z-70"><img src="/raichu-coin.webp" alt="Image shows a Raichu coin" /></div>
+
+
+      <div className="mx-auto relative max-w-7xl px-8 sm:px-6 lg:px-8 pt-16 pb-8 text-center lg:pt-32 lg:pb-32 z-100">
         <span className="mb-6 px-4 py-1 bg-orange-200 mx-auto inline-flex rounded-4xl">
           Over 30,000 items for sale!
         </span>
@@ -51,6 +58,9 @@ const Home = () => {
           </Link>
         </div>
       </div>
+
+      <div className="pb-6 xl:hidden"><img src="/pokemon-trio.webp" alt="Image show the Kanto Starters, Charizard, Blastoise and Venusaur"/></div>
+
 
       </div>
 
