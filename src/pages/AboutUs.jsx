@@ -17,7 +17,7 @@ const AboutUs = () => {
      <div className="hidden lg:inline absolute -right-20 top-80 -rotate-10"><img src='/sam-owner-card.webp' className="w-0  xl:w-[300px] 2xl:w-[467px]"  alt='Image shows Sam, owner of the Day Empire'/></div>
      <div className="hidden lg:inline absolute -left-20 top-60 rotate-10"><img src='/tom-owner-card.webp' className="w-0 xl:w-[300px] 2xl:w-[467px]"  alt='Image shows Tom, owner of the Day Empire'/></div>
 
-      <div className="relative mx-auto max-w-7xl px-8 sm:px-6 lg:px-8 pt-16 pb-16 text-center lg:pt-32 lg:pb-32">
+      <div className="relative mx-auto max-w-7xl px-8 sm:px-6 lg:px-8 pt-16 pb-8 text-center lg:pt-32 lg:pb-32">
         
         <span className="mb-6 px-4 py-1 bg-orange-200 mx-auto inline-flex rounded-4xl">
           About Day Empire
@@ -100,6 +100,8 @@ const AboutUs = () => {
           Thank you for choosing Day Empires. We’re excited to be part of your
           Pokémon™ adventure!
         </p>
+
+        <div className="mt-16 xl:hidden"><img src="/profile.webp" alt="Image show Sam and Tom. Creators of Day Empire."/></div>
       </div>
     </div>
     </>
