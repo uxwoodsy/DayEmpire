@@ -18,15 +18,16 @@ const Home = () => {
 <div className="bg-[url('/empire-crown.webp')] bg-bottom sm:bg-[0%_80%] bg-cover xl:h-screen">
 
 
-<div className="hidden xl:inline absolute left-0 lg:left-20 top-110 z-100"><img src="/pikachu-coin.webp" alt="Image shows a Pikachu coin"/></div>
+<div className="hidden xl:inline absolute left-0 xl:left-20 top-110 z-100"><img src="/pikachu-coin.webp" alt="Image shows a Pikachu coin"/></div>
 
 
- <div className="hidden xl:inline absolute left-0 lg:left-30 top-120 z-60"><img src="/charizard-card.webp" alt="Image shows a Charizard card"/></div>
- <div className="hidden xl:inline absolute left-0 lg:left-110 top-160 z-60"><img src="/umbreon-card.webp" alt="Image shows a Umbreon card"/></div>
-    <div className="hidden xl:inline absolute right-0 lg:right-30 top-120 z-70"><img src="/blastoise-card.webp" alt="Image shows a Blastoise card" /></div>
-    <div className="hidden xl:inline absolute right-0 lg:right-110 top-160 z-70"><img src="/venusaur-card.webp" alt="image shows a Venusaur card"/></div>
+ <div className="hidden xl:inline absolute left-0 xl:left-30 top-120 z-60"><img src="/charizard-card.webp" alt="Image shows a Charizard card"/></div>
+ <div className="hidden xl:inline absolute left-0 xl:left-110 top-160 z-60"><img src="/umbreon-card.webp" alt="Image shows a Umbreon card"/></div>
 
-    <div className="hidden xl:inline absolute right-0 lg:right-0 top-110 z-70"><img src="/raichu-coin.webp" alt="Image shows a Raichu coin" /></div>
+    <div className="hidden xl:inline absolute right-0 xl:right-30 top-120 z-70"><img src="/blastoise-card.webp" alt="Image shows a Blastoise card" /></div>
+    <div className="hidden xl:inline absolute right-0 xl:right-110 top-160 z-70"><img src="/venusaur-card.webp" alt="image shows a Venusaur card"/></div>
+
+    <div className="hidden xl:inline absolute right-0 xl:right-0 top-110 z-70"><img src="/raichu-coin.webp" alt="Image shows a Raichu coin" /></div>
 
 
       <div className="mx-auto relative max-w-7xl px-8 sm:px-6 lg:px-8 pt-16 pb-8 text-center lg:pt-32 lg:pb-32 z-100">
