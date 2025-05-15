@@ -117,7 +117,7 @@ const Collection = () => {
 
 
 <div className="mx-auto max-w-7xl text-center px-8 sm:px-6 mb-16 lg:mb-32">
-<div className="bg-gray-100 py-6 px-6 sm:p-16 rounded-[16px]">
+<div className="bg-[#F5F5F5] py-6 px-6 sm:p-16 rounded-[16px]">
 <h3 className="font-bold font-display text-3xl lg:text-4xl tracking-tight text-black mb-4">Search out collection</h3>
 <p className="mb-6 sm:mb-12">Search for any card or collectible, and we'll check if it's in stock for you.</p>
 <div className="bg-white p-6 rounded-lg">
