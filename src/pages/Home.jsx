@@ -21,9 +21,9 @@ const Home = () => {
 <div className="hidden xl:inline absolute left-0 lg:left-20 top-110 z-100"><img src="/pikachu-coin.webp" alt="Image shows a Pikachu coin"/></div>
 
 
- <div className="hidden xl:inline absolute left-0 lg:left-30 top-110 z-60"><img src="/charizard-card.webp" alt="Image shows a Charizard card"/></div>
+ <div className="hidden xl:inline absolute left-0 lg:left-30 top-120 z-60"><img src="/charizard-card.webp" alt="Image shows a Charizard card"/></div>
  <div className="hidden xl:inline absolute left-0 lg:left-110 top-160 z-60"><img src="/umbreon-card.webp" alt="Image shows a Umbreon card"/></div>
-    <div className="hidden xl:inline absolute right-0 lg:right-30 top-110 z-70"><img src="/blastoise-card.webp" alt="Image shows a Blastoise card" /></div>
+    <div className="hidden xl:inline absolute right-0 lg:right-30 top-120 z-70"><img src="/blastoise-card.webp" alt="Image shows a Blastoise card" /></div>
     <div className="hidden xl:inline absolute right-0 lg:right-110 top-160 z-70"><img src="/venusaur-card.webp" alt="image shows a Venusaur card"/></div>
 
     <div className="hidden xl:inline absolute right-0 lg:right-0 top-110 z-70"><img src="/raichu-coin.webp" alt="Image shows a Raichu coin" /></div>
@@ -54,7 +54,7 @@ const Home = () => {
             title="Learn about Day Empire"
             className="flex items-center underline hover:no-underline justify-center gap-2 px-6 py-3 relative w-auto  text-black hover:text-gray-500"
           >
-            Learn more
+            About Day Empire
           </Link>
         </div>
       </div>

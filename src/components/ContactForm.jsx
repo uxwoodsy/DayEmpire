@@ -63,7 +63,7 @@ const ContactForm = () => {
         </div>
 
         <div className='w-full mb-6'>
-        <label for="Email" className='py-2'>Email</label>
+        <label for="email" className='py-2'>Email</label>
         <input type="text" id="email" name="email" required className='border-1 w-full border-gray-300 p-3' onChange={handleChange}/>
         </div>
 
