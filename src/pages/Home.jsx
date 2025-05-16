@@ -101,10 +101,10 @@ const Home = () => {
         <div className="pb-6 xl:hidden">
           <img
             src="default.jpg"
-            srcset="pokemon-trio-mobile.webp 466w, pokemon-trio.webp 1171w"
+            srcset="pokemon-trio-mobile.webp 466w, pokemon-trio.webp 675w"
             sizes="(max-width: 466px) 100vw, 100vw"
-            width="1172"
-            height="699"
+            width="675"
+            height="425"
             alt="Image show the Kanto Starters, Charizard, Blastoise and Venusaur"
           ></img>
         </div>
