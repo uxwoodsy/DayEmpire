@@ -73,9 +73,9 @@ const Home = () => {
 
 
 <img src="default.jpg" 
-     srcset="mobile.webp 466w, pokemon-trio.webp 1171w"
+     srcset="pokemon-trio-mobile.webp 466w, pokemon-trio.webp 1171w"
      sizes="(max-width: 466px) 100vw, 100vw"
-     alt="Optimized WebP Image"></img>
+     alt="Image show the Kanto Starters, Charizard, Blastoise and Venusaur"></img>
 
 
 
