@@ -21,11 +21,11 @@ const Home = () => {
 <div className="hidden xl:inline absolute left-0 xl:left-20 top-100 z-100"><img src="/pikachu-coin.webp" alt="Image shows a Pikachu coin"/></div>
 
 
- <div className="hidden xl:inline absolute left-0 xl:left-0 top-100 z-60"><img src="/charizard-card.webp" alt="Image shows a Charizard card"/></div>
- <div className="hidden xl:inline absolute left-0 xl:left-100 top-160 z-60"><img src="/umbreon-card.webp" alt="Image shows a Umbreon card"/></div>
+ <div className="hidden xl:inline absolute left-0 xl:left-0 top-130 z-60"><img src="/charizard-card.webp" alt="Image shows a Charizard card"/></div>
+ <div className="hidden xl:inline absolute left-0 xl:left-100 top-150 z-60"><img src="/umbreon-card.webp" alt="Image shows a Umbreon card"/></div>
 
-    <div className="hidden xl:inline absolute right-0 xl:right-0 top-100 z-70"><img src="/blastoise-card.webp" alt="Image shows a Blastoise card" /></div>
-    <div className="hidden xl:inline absolute right-0 xl:right-100 top-160 z-70"><img src="/venusaur-card.webp" alt="image shows a Venusaur card"/></div>
+    <div className="hidden xl:inline absolute right-0 xl:right-0 top-130 z-70"><img src="/blastoise-card.webp" alt="Image shows a Blastoise card" /></div>
+    <div className="hidden xl:inline absolute right-0 xl:right-100 top-150 z-70"><img src="/venusaur-card.webp" alt="image shows a Venusaur card"/></div>
 
     <div className="hidden xl:inline absolute right-0 xl:right-0 top-100 z-70"><img src="/raichu-coin.webp" alt="Image shows a Raichu coin" /></div>
 
@@ -42,13 +42,13 @@ const Home = () => {
           trust Day Empire for delivering authenticity and excellence.
         </p>
         <div className="sm:flex justify-center gap-2 mt-6">
-          <Link
-            to="/#BuyCards"
+          <a
+            href="#BuyCards"
             title="Buy Pokemon cards"
             className="mb-2 sm:mb-0 inline-flex items-center justify-center gap-2 px-6 py-3 bg-black rounded-lg hover:bg-gray-700 text-white"
           >
             Buy Pokemon Cards
-          </Link>
+          </a>
 
           <Link
             to="/about-us"
