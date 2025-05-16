@@ -17,25 +17,55 @@ const Home = () => {
       />
       <div className="bg-[url('/empire-crown.webp')] bg-bottom sm:bg-[0%_80%] bg-cover xl:h-screen">
         <div className="hidden xl:inline absolute left-0 xl:left-20 top-100 z-100">
-          <img src="/pikachu-coin.webp" width={160} height={186} alt="Image shows a Pikachu coin" />
+          <img
+            src="/pikachu-coin.webp"
+            width={160}
+            height={186}
+            alt="Image shows a Pikachu coin"
+          />
         </div>
 
         <div className="hidden xl:inline absolute left-0 xl:left-0 top-130 z-60">
-          <img src="/charizard-card.webp" width={561} height={699} alt="Image shows a Charizard card" />
+          <img
+            src="/charizard-card.webp"
+            width={561}
+            height={699}
+            alt="Image shows a Charizard card"
+          />
         </div>
         <div className="hidden xl:inline absolute left-0 xl:left-100 top-150 z-60">
-          <img src="/umbreon-card.webp" width={340} height={470} alt="Image shows a Umbreon card" />
+          <img
+            src="/umbreon-card.webp"
+            width={340}
+            height={470}
+            alt="Image shows a Umbreon card"
+          />
         </div>
 
         <div className="hidden xl:inline absolute right-0 xl:right-0 top-130 z-70">
-          <img src="/blastoise-card.webp" width={561} height={699} alt="Image shows a Blastoise card" />
+          <img
+            src="/blastoise-card.webp"
+            width={561}
+            height={699}
+            alt="Image shows a Blastoise card"
+          />
         </div>
         <div className="hidden xl:inline absolute right-0 xl:right-100 top-150 z-70">
-          <img src="/venusaur-card.webp" width={433} height={553} alt="image shows a Venusaur card" />
+          <img
+            src="/venusaur-card.webp"
+            width={433}
+            height={553}
+            alt="image shows a Venusaur card"
+          />
         </div>
 
         <div className="hidden xl:inline absolute right-0 xl:right-0 top-100 z-70">
-          <img src="/raichu-coin.webp" height={209} width={182} alt="Image shows a Raichu coin" />
+          <img
+            src="/raichu-coin.webp"
+            height={209}
+            width={182}
+            alt="Image shows a Raichu coin"
+          />
         </div>
 
         <div className="mx-auto relative max-w-7xl px-8 sm:px-6 lg:px-8 pt-16 pb-8 text-center lg:pt-32 lg:pb-32 z-100">
@@ -69,22 +99,16 @@ const Home = () => {
         </div>
 
         <div className="pb-6 xl:hidden">
-          
-
-
-<img src="default.jpg" 
-     srcset="pokemon-trio-mobile.webp 466w, pokemon-trio.webp 1171w"
-     sizes="(max-width: 466px) 100vw, 100vw"
-     alt="Image show the Kanto Starters, Charizard, Blastoise and Venusaur"></img>
-
-
-
-
-
-
+          <img
+            src="default.jpg"
+            srcset="pokemon-trio-mobile.webp 466w, pokemon-trio.webp 1171w"
+            sizes="(max-width: 466px) 100vw, 100vw"
+            width="1172"
+            height="699"
+            alt="Image show the Kanto Starters, Charizard, Blastoise and Venusaur"
+          ></img>
         </div>
       </div>
-
 
       <AboutUsHome />
       <Collection />
