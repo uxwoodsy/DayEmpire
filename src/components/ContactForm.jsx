@@ -46,8 +46,8 @@ const ContactForm = () => {
               <img
                 src="/large-pikachu-tilt.webp"
                 width={569}
-                height={703}
-                className="w-0 xl:w-[400px] 2xl:w-[600px]"
+                height={696}
+                className="w-0 xl:w-[400px] 2xl:w-[569px]"
                 alt="Image shows a Pikachu Pokemon card"
               />
             </div>
@@ -56,7 +56,7 @@ const ContactForm = () => {
                 src="/pokemon-stacked-cards.webp"
                 width={581}
                 height={703}
-                className="w-0 xl:w-[400px] 2xl:w-[600px]"
+                className="w-0 xl:w-[400px] 2xl:w-[581px]"
                 alt="Image shows stacked Pokemon cards"
               />
             </div>
