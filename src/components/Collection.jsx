@@ -147,7 +147,7 @@ const handleCheckboxChange = (checkboxType) => {
               <MagnifyingGlass color="#343330" size={24} className="inline-block" />
               <input id="searchCard" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} 
  className="p-4 grow" type="search" placeholder="Search for a card name..." aria-label="Search"/>
-              <button id="searcInput" onClick={handleSearch} className="hidden mb-2 sm:mb-0 sm:inline items-center justify-center gap-2 px-6 py-3 bg-black cursor-pointer rounded-lg hover:bg-gray-700 text-white" type="submit">Search</button>
+              <button id="searcInput" onClick={handleSearch} title="Search for a Pokemon Card" className="hidden mb-2 sm:mb-0 sm:inline items-center justify-center gap-2 px-6 py-3 bg-black cursor-pointer rounded-lg hover:bg-gray-700 text-white" type="submit">Search</button>
             </form>     
 
             <div class="flex flex-col space-y-4">
@@ -173,7 +173,7 @@ const handleCheckboxChange = (checkboxType) => {
                     <span>First editions only</span>
               </label>
 
-              <button id="searcInput" onClick={handleSearch} className="inline mb-2 sm:mb-0 sm:hidden items-center justify-center gap-2 px-6 py-3 cur bg-black rounded-lg hover:bg-gray-700 text-white" type="submit">Search</button>
+              <button id="searcInput" title="Search for a Pokemon Card" onClick={handleSearch} className="inline mb-2 sm:mb-0 sm:hidden items-center justify-center gap-2 px-6 py-3 cur bg-black rounded-lg hover:bg-gray-700 text-white" type="submit">Search</button>
 
 </div> 
 </div>
