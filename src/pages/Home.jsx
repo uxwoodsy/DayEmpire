@@ -35,7 +35,7 @@ const Home = () => {
         </div>
 
         <div className="hidden xl:inline absolute right-0 xl:right-0 top-100 z-70">
-          <img src="/raichu-coin.webp" height={182} width={209} alt="Image shows a Raichu coin" />
+          <img src="/raichu-coin.webp" height={209} width={182} alt="Image shows a Raichu coin" />
         </div>
 
         <div className="mx-auto relative max-w-7xl px-8 sm:px-6 lg:px-8 pt-16 pb-8 text-center lg:pt-32 lg:pb-32 z-100">
