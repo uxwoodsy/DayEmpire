@@ -24,7 +24,7 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const { name, email, details } = formData;
-    const mailtoUrl = `mailto:contact@dayempire.co.uk?subject=Bulk%20Card%20Sale%20Enquiry%20-%20${encodeURIComponent(
+    const mailtoUrl = `mailto:contact@dayempire.co.uk?subject=Enquiry${encodeURIComponent(
       name
     )}&body=Name%3A%20${encodeURIComponent(
       name

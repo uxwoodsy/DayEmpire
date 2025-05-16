@@ -69,16 +69,25 @@ const Home = () => {
         </div>
 
         <div className="pb-6 xl:hidden">
-          <img
-            src="/pokemon-trio.webp"
-            height={699}
-            width={1171}
-            alt="Image show the Kanto Starters, Charizard, Blastoise and Venusaur"
-          />
+          
+
+
+<img src="default.jpg" 
+     srcset="mobile.webp 466w, pokemon-trio.webp 1171w"
+     sizes="(max-width: 466px) 100vw, 100vw"
+     alt="Optimized WebP Image"></img>
+
+
+
+
+
+
         </div>
       </div>
+
+
       <AboutUsHome />
-      ` <Collection />
+      <Collection />
       <Benefits />
       <FAQ />
       <Testimonial />
