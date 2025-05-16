@@ -13,6 +13,7 @@ const Certfication = () => {
               role="img"
               aria-label="Certifed with Cardmarket"
               height={140}
+              width={140}
               alt="Certifed with Cardmarket - DayEmpire"
             /></a>
           </li>
@@ -20,6 +21,7 @@ const Certfication = () => {
             <img
               src="/pokemon-trading.webp"
               height={140}
+              width={140}
               role="img"
               aria-label="Pokemon Trading Cards"
               alt="Pokemon Trading Cards"
@@ -30,6 +32,7 @@ const Certfication = () => {
             <img
               src="/amazon-startup.webp"
               height={140}
+              width={140}
               role="img"
               aria-label="Backed by AWS Startup"
               alt="image shows we are backed by AWS Startup"

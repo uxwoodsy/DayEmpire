@@ -11,11 +11,11 @@ const AboutUs = () => {
     <div className="mx-auto relative">
 
     
-     <div className="hidden lg:inline absolute -right-50 top-10"><img src='/squirtle-card.webp' className="w-0 xl:w-[500px] 2xl:w-[600px]"  alt='Image shows a Squirtle Pokemon card'/></div>
-     <div className="hidden lg:inline absolute right-70 top-10"><img src='/raichu-coin.webp' className="w-0  xl:w-[168px] 2xl:w-[168px]"  alt='Image shows a Raichu coin'/></div>
-     <div className="hidden lg:inline absolute left-30 top-10"><img src='/blastiose-coin.webp' className="w-0 xl:w-[168px] 2xl:w-[168px]"  alt='Image shows a Blastoise coin'/></div>
-     <div className="hidden lg:inline absolute -right-20 top-80 -rotate-10"><img src='/sam-owner-card.webp' className="w-0  xl:w-[300px] 2xl:w-[467px]"  alt='Image shows Sam, owner of the Day Empire'/></div>
-     <div className="hidden lg:inline absolute -left-20 top-60 rotate-10"><img src='/tom-owner-card.webp' className="w-0 xl:w-[300px] 2xl:w-[467px]"  alt='Image shows Tom, owner of the Day Empire'/></div>
+     <div className="hidden lg:inline absolute -right-50 top-10"><img src='/squirtle-card.webp' width={574} height={696} className="w-0 xl:w-[500px] 2xl:w-[600px]"  alt='Image shows a Squirtle Pokemon card'/></div>
+     <div className="hidden lg:inline absolute right-70 top-10"><img src='/raichu-coin.webp' width={182} height={209}  className="w-0  xl:w-[168px] 2xl:w-[168px]"  alt='Image shows a Raichu coin'/></div>
+     <div className="hidden lg:inline absolute left-30 top-10"><img src='/blastiose-coin.webp' width={229} height={296}  className="w-0 xl:w-[168px] 2xl:w-[168px]"  alt='Image shows a Blastoise coin'/></div>
+     <div className="hidden lg:inline absolute -right-20 top-80 -rotate-10"><img src='/sam-owner-card.webp' width={467} height={627}  className="w-0  xl:w-[300px] 2xl:w-[467px]"  alt='Image shows Sam, owner of the Day Empire'/></div>
+     <div className="hidden lg:inline absolute -left-20 top-60 rotate-10"><img src='/tom-owner-card.webp' width={467} height={627}  className="w-0 xl:w-[300px] 2xl:w-[467px]"  alt='Image shows Tom, owner of the Day Empire'/></div>
 
       <div className="relative mx-auto max-w-7xl px-8 sm:px-6 lg:px-8 pt-16 pb-8 text-center lg:pt-32 lg:pb-32">
         
@@ -101,7 +101,7 @@ const AboutUs = () => {
           Pokémon™ adventure!
         </p>
 
-        <div className="mt-8 xl:hidden"><img src="/profile.webp" alt="Image show Sam and Tom. Creators of Day Empire."/></div>
+        <div className="mt-8 xl:hidden"><img src="/profile.webp" width={968} height={710} alt="Image show Sam and Tom. Creators of Day Empire."/></div>
       </div>
     </div>
     </>
