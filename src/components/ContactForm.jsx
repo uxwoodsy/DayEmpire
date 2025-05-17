@@ -19,6 +19,7 @@ const ContactForm = () => {
 
     const [errors, setErrors] = useState({});
   const [isValid, setIsValid] = useState(false);
+const [selectedOption, setSelectedOption] = useState("General Inquiry"); // Default selection
 
     const validateForm = () => {
     let newErrors = {};
@@ -32,23 +33,24 @@ const ContactForm = () => {
     setIsValid(Object.keys(newErrors).length === 0);
   };
 
+  const handleSelectChange = (e) => {
+    setSelectedOption(e.target.value);
+  };
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
     validateForm();
   };
-
-
+  
   const handleSubmit = (e) => {
     e.preventDefault();
-    const { name, email, details } = formData;
-    const mailtoUrl = `mailto:contact@dayempire.co.uk?subject=Enquiry${encodeURIComponent(
-      name
-    )}&body=Name%3A%20${encodeURIComponent(
-      name
-    )}%0D%0AEmail%3A%20${encodeURIComponent(
-      email
-    )}%0D%0ACard%20Bulk%20Details%3A%20${encodeURIComponent(details)}`;
-    window.open(mailtoUrl, "_blank");
+
+    if (isValid) {
+      const { name, email, details } = formData;
+      const mailtoUrl = `mailto:contact@dayempire.co.uk?subject=${encodeURIComponent(selectedOption)}%20-%20${encodeURIComponent(name)}&body=Name:%20${encodeURIComponent(name)}%0D%0AEmail:%20${encodeURIComponent(email)}%0D%0ACard%20Bulk%20Details:%0D%0A${encodeURIComponent(details)}`;
+
+      window.location.href = mailtoUrl;
+    }
   };
 
   return (
@@ -123,7 +125,16 @@ const ContactForm = () => {
   encType="multipart/form-data"
   onSubmit={handleSubmit}
 >
-  {/* Name Field */}
+
+  <div className="w-full mb-6">
+        <label htmlFor="inquiryType" className="py-2">Inquiry Type</label>
+        <select id="inquiryType" name="inquiryType" className="border-1 w-full border-gray-300 p-3" onChange={handleSelectChange}>
+          <option value="Buying Enquiries">Buying Enquiries</option>
+          <option value="Selling Enquiries">Selling Enquiries</option>
+          <option value="Custom Orders">Business Enquiries</option>
+        </select>
+ </div>
+
   <div className="w-full mb-6">
     <label htmlFor="name" className="py-2">
       Name
@@ -139,7 +150,6 @@ const ContactForm = () => {
     {errors.name && <small className="text-red-500">{errors.name}</small>}
   </div>
 
-  {/* Email Field */}
   <div className="w-full mb-6">
     <label htmlFor="email" className="py-2">
       Email
@@ -155,7 +165,6 @@ const ContactForm = () => {
     {errors.email && <small className="text-red-500">{errors.email}</small>}
   </div>
 
-  {/* Message Field */}
   <div className="w-full mb-6">
     <label htmlFor="details" className="py-2">
       Message
