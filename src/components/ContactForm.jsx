@@ -17,9 +17,26 @@ const ContactForm = () => {
     details: "",
   });
 
+    const [errors, setErrors] = useState({});
+  const [isValid, setIsValid] = useState(false);
+
+    const validateForm = () => {
+    let newErrors = {};
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (!formData.name.trim()) newErrors.name = "Name is required";
+    if (!formData.email.match(emailPattern)) newErrors.email = "Enter a valid email";
+    if (!formData.details.trim()) newErrors.details = "Details are required";
+
+    setErrors(newErrors);
+    setIsValid(Object.keys(newErrors).length === 0);
+  };
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
+    validateForm();
   };
+
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -100,63 +117,68 @@ const ContactForm = () => {
 
       <div className="flex mx-8 mb-20 sm:mx-16 justify-center lg:mb-32">
         <form
-          action=""
-          id="ContactForm"
-          className="w-xl"
-          method="POST"
-          encType="multipart/form-data"
-          onSubmit={handleSubmit}
-        >
-          <div className="w-full mb-6">
-            <label for="name" className="py-2">
-              Name
-            </label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              required
-              className="border-1 w-full border-gray-300 p-3"
-              onChange={handleChange}
-            />
-          </div>
+  id="ContactForm"
+  className="w-xl"
+  method="POST"
+  encType="multipart/form-data"
+  onSubmit={handleSubmit}
+>
+  {/* Name Field */}
+  <div className="w-full mb-6">
+    <label htmlFor="name" className="py-2">
+      Name
+    </label>
+    <input
+      type="text"
+      id="name"
+      name="name"
+      required
+      className="border-1 w-full border-gray-300 p-3"
+      onChange={handleChange}
+    />
+    {errors.name && <small className="text-red-500">{errors.name}</small>}
+  </div>
 
-          <div className="w-full mb-6">
-            <label for="email" className="py-2">
-              Email
-            </label>
-            <input
-              type="text"
-              id="email"
-              name="email"
-              required
-              className="border-1 w-full border-gray-300 p-3"
-              onChange={handleChange}
-            />
-          </div>
+  {/* Email Field */}
+  <div className="w-full mb-6">
+    <label htmlFor="email" className="py-2">
+      Email
+    </label>
+    <input
+      type="text"
+      id="email"
+      name="email"
+      required
+      className="border-1 w-full border-gray-300 p-3"
+      onChange={handleChange}
+    />
+    {errors.email && <small className="text-red-500">{errors.email}</small>}
+  </div>
 
-          <div className="w-full mb-6">
-            <label for="details" className="py-2">
-              Message
-            </label>
-            <textarea
-              rows="8"
-              id="details"
-              name="details"
-              required
-              className="border-1 w-full border-gray-300 p-3"
-              onChange={handleChange}
-            ></textarea>
-          </div>
+  {/* Message Field */}
+  <div className="w-full mb-6">
+    <label htmlFor="details" className="py-2">
+      Message
+    </label>
+    <textarea
+      rows="8"
+      id="details"
+      name="details"
+      required
+      className="border-1 w-full border-gray-300 p-3"
+      onChange={handleChange}
+    ></textarea>
+    {errors.details && <small className="text-red-500">{errors.details}</small>}
+  </div>
 
-          <button
-            type="submit"
-            aria-label="Submit form"
-            className="w-full sm:w-auto cursor-pointer inline-flex items-center justify-center px-6 py-3 bg-black rounded-lg hover:bg-gray-700 text-white"
-          >
-            Enquire today
-          </button>
-        </form>
+  <a
+  href={`mailto:contact@dayempire.co.uk?subject=Bulk%20Card%20Sale%20Enquiry%20-%20${encodeURIComponent(formData.name)}&body=Name:%20${encodeURIComponent(formData.name)}%0D%0AEmail:%20${encodeURIComponent(formData.email)}%0D%0ACard%20Bulk%20Details:%0D%0A${encodeURIComponent(formData.details)}`}
+  className="w-full sm:w-auto cursor-pointer inline-flex items-center justify-center px-6 py-3 bg-black rounded-lg hover:bg-gray-700 text-white"
+>
+  Enquire Today
+</a>
+
+</form>
       </div>
     </>
   );
